@@ -3,10 +3,6 @@
 
 👉 **[View my Project Launch Post on LinkedIn](ADD_YOUR_LINKEDIN_POST_URL_HERE)**
 
-<img width="1248" height="697" alt="Screenshot 2026-05-26 191619" src="https://github.com/user-attachments/assets/e178cb96-1a31-4bc6-8129-95ee37179bbf" />
-<img width="1247" height="702" alt="Screenshot 2026-05-26 191644" src="https://github.com/user-attachments/assets/ddad1ecc-5698-4b09-9aab-356f0c1ecb36" />
-<img width="1248" height="698" alt="Screenshot 2026-05-26 191604" src="https://github.com/user-attachments/assets/b39c032a-c226-437e-a6f0-13e1c1d653c8" />
-
 
 ## 📌 Project Overview
 This project showcases an industry-level data analytics pipeline built to handle transactional ride-booking records. Moving completely away from basic flat files (like CSVs or Excel), this architecture implements a dynamic connection between a relational database engine (**PostgreSQL**) and **Power BI Cloud Service** using an **On-Premises Data Gateway** infrastructure.
@@ -32,7 +28,10 @@ The analytics framework relies on a production-optimized star schema:
 * **Fact Table:** `public.bi_fact_sales` (Capturing live transaction IDs, base booking values, timestamps, and customer/driver keys)
 * **Dimension Table:** `DimDate` (Handling chronological layers including precise Date Hierarchies, Quarters, and Custom Month Names)
 
-## 📈 Featured Analytical Expressions (DAX)
-Chronological grouping arrays created for dynamic dashboard axis labels:
-```dax
-Month Name = FORMAT(rideBookings[Date], "MMMM")
+## 📈 Analytical Visuals
+<img width="1248" height="697" alt="Screenshot 2026-05-26 191619" src="https://github.com/user-attachments/assets/e178cb96-1a31-4bc6-8129-95ee37179bbf" />
+
+<img width="1247" height="702" alt="Screenshot 2026-05-26 191644" src="https://github.com/user-attachments/assets/ddad1ecc-5698-4b09-9aab-356f0c1ecb36" />
+
+<img width="1248" height="698" alt="Screenshot 2026-05-26 191604" src="https://github.com/user-attachments/assets/b39c032a-c226-437e-a6f0-13e1c1d653c8" />
+
