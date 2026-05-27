@@ -1,4 +1,4 @@
-# End-to-End Taxi Ride Analytics Pipeline (PostgreSQL × Power BI)
+# End-to-End E-Commerce Analysis Pipeline (PostgreSQL × Power BI)
 🚀 **Production-Grade BI Architecture with Live Gateway Integration**
 
 👉 **[View my Project Launch Post on LinkedIn](ADD_YOUR_LINKEDIN_POST_URL_HERE)**
